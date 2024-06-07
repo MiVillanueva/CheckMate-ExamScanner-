@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_notifications">
+
+    <TextView
+        android:id="@+id/StudName"
+        android:layout_width="419dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_corner_2"
+        android:paddingStart="10sp"
+        android:paddingTop="6dp"
+        android:paddingEnd="10sp"
+        android:text="Villanueva Miguel Irey\nSibal, Jairo\nVargas, Dayzerlyn\nBillones, Carl John\nCiacico, Koleen\nMarable, Bianca\nJose, Christian George\nPascual, Keith\nRoldan, Patricia\nThiarhia, Ramesh\nOctaviano, Gean"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/sti_logo" />
+
+    <ImageView
+        android:id="@+id/sti_logo"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:background="@color/blue"
+        android:paddingStart="15dp"
+        android:paddingEnd="300dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/logo_sti"
+        android:contentDescription="@string/sti_logo"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="2dp"
+        tools:ignore="MissingConstraints" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
